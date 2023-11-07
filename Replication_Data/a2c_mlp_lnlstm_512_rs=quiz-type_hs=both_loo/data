@@ -1,0 +1,49 @@
+{
+    "gamma": 0.99,
+    "n_steps": 5,
+    "vf_coef": 0.25,
+    "ent_coef": 0.01,
+    "max_grad_norm": 0.5,
+    "learning_rate": 0.0007,
+    "alpha": 0.99,
+    "epsilon": 1e-05,
+    "lr_schedule": "constant",
+    "verbose": 1,
+    "policy": {
+        ":type:": "<class 'abc.ABCMeta'>",
+        ":serialized:": "gASVuwEAAAAAAACMF2Nsb3VkcGlja2xlLmNsb3VkcGlja2xllIwUX21ha2Vfc2tlbGV0b25fY2xhc3OUk5QojANhYmOUjAdBQkNNZXRhlJOUjAZOZXdDbHOUjCBzdGFibGVfYmFzZWxpbmVzLmNvbW1vbi5wb2xpY2llc5SMD01scExuTHN0bVBvbGljeZSTlIWUfZSMCl9fbW9kdWxlX1+UjAhfX21haW5fX5RzjCBkNzg5NzQ1NjI1NzY0NzY1YmY3ZjA2ZTAzYTM3M2EyNpROdJRSlIwcY2xvdWRwaWNrbGUuY2xvdWRwaWNrbGVfZmFzdJSMD19jbGFzc19zZXRzdGF0ZZSTlGgQfZQoaAxoDYwIX19pbml0X1+UjAlmdW5jdG9vbHOUjA1wYXJ0aWFsbWV0aG9klJOUKYGUfZQojARmdW5jlGgHjBhNbHBMbkxzdG1Qb2xpY3kuX19pbml0X1+Uk5SMBGFyZ3OUKYwIa2V5d29yZHOUfZSMBm5fbHN0bZRNAAJzdWKMB19fZG9jX1+UTowTX19hYnN0cmFjdG1ldGhvZHNfX5QokZSMCV9hYmNfaW1wbJRdlHV9lIaUhlIwLg==",
+        "__module__": "__main__",
+        "__init__": "functools.partialmethod(<function MlpLnLstmPolicy.__init__ at 0x7f3fafdf1440>, , n_lstm=512)",
+        "__doc__": null,
+        "__abstractmethods__": "frozenset()",
+        "_abc_impl": "<_abc_data object at 0x7f3facce5120>"
+    },
+    "observation_space": {
+        ":type:": "<class 'gym.spaces.box.Box'>",
+        ":serialized:": "gASVrwEAAAAAAACMDmd5bS5zcGFjZXMuYm94lIwDQm94lJOUKYGUfZQojAVkdHlwZZSMBW51bXB5lIwFZHR5cGWUk5SMAmY0lEsASwGHlFKUKEsDjAE8lE5OTkr/////Sv////9LAHSUYowGX3NoYXBllEsFhZSMA2xvd5SMFW51bXB5LmNvcmUubXVsdGlhcnJheZSMDF9yZWNvbnN0cnVjdJSTlGgGjAduZGFycmF5lJOUSwCFlEMBYpSHlFKUKEsBSwWFlGgLiUMUAAAAAAAAAAAAAAAAAAAAAAAAAACUdJRijARoaWdolGgTaBVLAIWUaBeHlFKUKEsBSwWFlGgLiUMUAACAPwAAgD8AAIA/AACAPwAAgD+UdJRijA1ib3VuZGVkX2JlbG93lGgTaBVLAIWUaBeHlFKUKEsBSwWFlGgIjAJiMZRLAEsBh5RSlChLA4wBfJROTk5K/////0r/////SwB0lGKJQwUBAQEBAZR0lGKMDWJvdW5kZWRfYWJvdmWUaBNoFUsAhZRoF4eUUpQoSwFLBYWUaCuJQwUBAQEBAZR0lGKMCl9ucF9yYW5kb22UTnViLg==",
+        "dtype": "float32",
+        "_shape": [
+            5
+        ],
+        "low": "[0. 0. 0. 0. 0.]",
+        "high": "[1. 1. 1. 1. 1.]",
+        "bounded_below": "[ True  True  True  True  True]",
+        "bounded_above": "[ True  True  True  True  True]",
+        "_np_random": null
+    },
+    "action_space": {
+        ":type:": "<class 'gym.spaces.multi_discrete.MultiDiscrete'>",
+        ":serialized:": "gASVDAEAAAAAAACMGWd5bS5zcGFjZXMubXVsdGlfZGlzY3JldGWUjA1NdWx0aURpc2NyZXRllJOUKYGUfZQojARudmVjlIwVbnVtcHkuY29yZS5tdWx0aWFycmF5lIwMX3JlY29uc3RydWN0lJOUjAVudW1weZSMB25kYXJyYXmUk5RLAIWUQwFilIeUUpQoSwFLBIWUaAmMBWR0eXBllJOUjAJpOJRLAEsBh5RSlChLA4wBPJROTk5K/////0r/////SwB0lGKJQyACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAJR0lGKMBl9zaGFwZZRLBIWUjAVkdHlwZZRoFYwKX25wX3JhbmRvbZROdWIu",
+        "nvec": "[2 2 2 2]",
+        "_shape": [
+            4
+        ],
+        "dtype": "int64",
+        "_np_random": null
+    },
+    "n_envs": 4,
+    "n_cpu_tf_sess": null,
+    "seed": null,
+    "_vectorize_action": false,
+    "policy_kwargs": {}
+}
